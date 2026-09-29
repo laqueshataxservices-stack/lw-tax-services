@@ -42,16 +42,20 @@ nav a{
 }
 
 .hero{
-  min-height:620px;
-  background:linear-gradient(135deg,#05bfc4,#087c80,#062f31);
-  color:white;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding:80px 20px;
+    min-height:620px;
+    background:
+        radial-gradient(circle at 20% 25%, rgba(255,255,255,.22), transparent 28%),
+        radial-gradient(circle at 85% 75%, rgba(255,255,255,.12), transparent 25%),
+        linear-gradient(135deg, #062f31 0%, #087c80 35%, #05bfc4 65%, #062f31 100%);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:80px 20px;
+    position:relative;
+    overflow:hidden;
 }
-
 .hero-content{
   max-width:850px;
 }
